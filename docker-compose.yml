@@ -1,0 +1,36 @@
+# docker compose up --build     then open http://localhost:5173
+# Put the model folders in ./models first (see README). They are mounted read-only.
+name: ml_phil
+
+services:
+  backend:
+    build: ./backend
+    environment:
+      MLPHIL_URL_BUNDLE: /models/model_bundle
+      MLPHIL_EMAIL_MODEL_DIR: /models/email_security_model
+      MLPHIL_DB_PATH: /data/mlphil.db
+      MLPHIL_COOKIE_SECURE: ${MLPHIL_COOKIE_SECURE:-0}
+    volumes:
+      - ./models:/models:ro
+      - accounts:/data
+    restart: unless-stopped
+    # No ports: only the frontend's nginx can reach it.
+    # Healthy only once at least one model has loaded and passed its self-test.
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=5)"]
+      interval: 10s
+      timeout: 6s
+      start_period: 180s
+      retries: 3
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "${WEB_PORT:-5173}:80"
+    depends_on:
+      backend:
+        condition: service_healthy  # the site opens only after the models are ready
+    restart: unless-stopped
+
+volumes:
+  accounts:

@@ -1,0 +1,17 @@
+fastapi==0.162.0
+uvicorn==0.54.0
+slowapi==0.1.10
+argon2-cffi==25.1.0  # password hashing (Argon2id)
+# URL model (versions from the v5 bundle's training notes)
+lightgbm==4.7.0
+tldextract==5.4.0
+rapidfuzz==3.14.6
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+# Email model: transformers version from the model's config.json. CPU torch:
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+transformers==5.20.2
+# Tests
+pytest==9.2.0
+httpx==0.28.1

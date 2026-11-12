@@ -1,0 +1,25 @@
+{
+ "_note": "Scores recorded by the URL pipeline notebook on Kaggle (ext_test_urls.csv.gz), 5 per test cohort. Strings only: these URLs are never opened.",
+ "scores": {
+  "https://usps.ctrlposthub.com": 0.9999257042991917,
+  "https://fmsslaskie.pl/home.html/autoload.html?c=info": 0.9783183039583534,
+  "https://gamzin.ru/oauth.vk.com/token/grant_type=password&client_id=2274003&client_secret=hHbZxrka2uZ6jB1inYsH/312412": 0.9943785056660733,
+  "https://www3.jp.mecrcarai.com": 0.9992935215346843,
+  "https://valuesgame.com/lnkl/ios/oauth2": 0.9785966601783357,
+  "http://roblox.et/communities/7480665072/steezys-studios%23%21/about": 0.07883705658109863,
+  "https://s4w.in/SpeoA": 0.9664690495230976,
+  "https://qelqumi-gld-larquna-a3x1hp65.pages.dev/": 0.999975267111368,
+  "http://adrenalin.win/": 0.21619285701116414,
+  "https://sp1ct10-javrek-biz-pulno-vemti.pages.dev/send_appeal_request": 0.9999875906097607,
+  "https://vide-greniers.org/": 0.10950231846992614,
+  "https://rtx.com/": 0.021552296254272435,
+  "https://premiumtimesng.com/": 0.492272072539465,
+  "https://laposte.net/": 0.5723346125919568,
+  "https://pokepara.jp/": 0.059055167969968216,
+  "https://www.profitvana.com/developers": 0.010661238707394499,
+  "https://zjp-cn.github.io/tlborm/": 0.05759567959231991,
+  "https://wallhaven.cc/help/api": 0.43069879601441635,
+  "https://circleci.com/docs/api/": 0.00841062690618628,
+  "https://freedombox.org/": 0.12438838105314899
+ }
+}
