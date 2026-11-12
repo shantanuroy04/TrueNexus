@@ -688,7 +688,7 @@ _[file attached: url_v5_service.py]_
 
 ### Student
 
-> "C:\Users\KIIT0001\Downloads\ML_Phil_Email.zip"
+> "C:\Users\<user>\Downloads\ML_Phil_Email.zip"
 >
 > see the contents I attached to it
 
@@ -1835,7 +1835,7 @@ Model configs and all metric reports stay in.
 ▸ Loaded skill caveman:caveman  
 ▸ Wrote make_zip.py  
 ▸ Create project zip in Downloads and verify contents  
-**Claude:** Project zip is ready: **`C:\Users\KIIT0001\Downloads\ML_Phil_project.zip`** (0.17 MB, 73 files). I checked contents: no database, model weights, `node_modules` or `.venv` inside.
+**Claude:** Project zip is ready: **`C:\Users\<user>\Downloads\ML_Phil_project.zip`** (0.17 MB, 73 files). I checked contents: no database, model weights, `node_modules` or `.venv` inside.
 
 #### Inside
 | Folder | What it has for your report |
@@ -1967,7 +1967,7 @@ For report screenshots, I can capture each page (home, URL result, email with li
 
 ▸ Wrote CAPTIONS.md  
 ▸ Copy screenshots to Downloads and rebuild project zip with them  
-**Claude:** I've captured 26 screenshots from your running Docker site, both models loaded and no account logged in. They're at **`C:\Users\KIIT0001\Downloads\ML_Phil_screenshots\`** (13 MB).
+**Claude:** I've captured 26 screenshots from your running Docker site, both models loaded and no account logged in. They're at **`C:\Users\<user>\Downloads\ML_Phil_screenshots\`** (13 MB).
 
 | Folder | What's in it |
 |---|---|
@@ -2022,8 +2022,8 @@ Finding transcript file first.
 | File | Location |
 |---|---|
 | History file | `PROJECT_HISTORY.md`, at top level inside `ML_Phil_project.zip` |
-| Separate copy | `C:\Users\KIIT0001\Downloads\ML_Phil_PROJECT_HISTORY.md` |
-| Updated zip | `C:\Users\KIIT0001\Downloads\ML_Phil_project.zip` (10.7 MB, 101 files) |
+| Separate copy | `C:\Users\<user>\Downloads\ML_Phil_PROJECT_HISTORY.md` |
+| Updated zip | `C:\Users\<user>\Downloads\ML_Phil_project.zip` (10.7 MB, 101 files) |
 
 **Part 1, work log** (about 90 lines), written for your report:
 - what was built, in order, from 5 to 11 November;
@@ -2046,7 +2046,7 @@ Part 2 stops partway through creating this file, so this last step isn't recorde
 
 ### Student
 
-> "C:\Users\KIIT0001\Downloads\results_email.zip"
+> "C:\Users\<user>\Downloads\results_email.zip"
 >
 > here is the results from new email v6 /caveman:caveman
 
@@ -2280,7 +2280,7 @@ History's Part 2 (the conversation) still ends before this v6 work. Part 1 cover
 
 ### Student
 
-> "C:\Users\KIIT0001\Downloads\MLPhil_URL_Phishing_Pipeline.ipynb"
+> "C:\Users\<user>\Downloads\MLPhil_URL_Phishing_Pipeline.ipynb"
 
 **Claude:** You sent URL pipeline notebook without a request. Most likely you want its test results on How it works, where URL model still says "not yet available". Reading notebook first: cells, saved outputs, and any metrics.
 
@@ -2375,7 +2375,7 @@ First confirming new code keeps feature names your `url_v5_service.py` uses for 
 ▸ Check notebook copy for saved outputs and size cause  
 **Claude:** Clean: no saved outputs. Larger size is only file formatting. Code grew by about 3,900 characters, which is my additions.
 
-Your URL notebook is ready to run on Kaggle: **`C:\Users\KIIT0001\Downloads\MLPhil_URL_Phishing_Pipeline_for_site.ipynb`**. Your original file is unchanged.
+Your URL notebook is ready to run on Kaggle: **`C:\Users\<user>\Downloads\MLPhil_URL_Phishing_Pipeline_for_site.ipynb`**. Your original file is unchanged.
 
 #### Changes in this copy
 | Change | Why |
@@ -2426,7 +2426,7 @@ History file and project zip are updated with this step.
 ▸ Confirm notebook exists and show it in File Explorer  
 **Claude:** It's in your Downloads folder:
 
-**`C:\Users\KIIT0001\Downloads\MLPhil_URL_Phishing_Pipeline_for_site.ipynb`** (about 500 KB)
+**`C:\Users\<user>\Downloads\MLPhil_URL_Phishing_Pipeline_for_site.ipynb`** (about 500 KB)
 
 I opened File Explorer with it selected. If no window appeared, go to **Downloads** and look for **`MLPhil_URL_Phishing_Pipeline_for_site`**. It sits next to your original `MLPhil_URL_Phishing_Pipeline.ipynb`, which I left unchanged.
 
@@ -2462,7 +2462,7 @@ _[screenshot attached]_
 
 ### Student
 
-> "C:\Users\KIIT0001\Downloads\results_url.zip"
+> "C:\Users\<user>\Downloads\results_url.zip"
 >
 > see the results /caveman:caveman
 
